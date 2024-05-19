@@ -48,7 +48,7 @@ export default function Footer() {
                 <span class="inline-block h-1  w-24 self-stretch bg-[#f57e27] "></span>
               </div>
 
-              <ul className='flex flex-col gap-6' >
+              <ul className='flex flex-col gap-6 pl-3' >
                 <li className='list-disc text-slate-400 text-sm'>
                   <Link href={''}>Développement Informatique</Link>
                 </li>
@@ -69,7 +69,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className=' flex flex-col gap-6 '>
+            <div className=' flex flex-col gap-6 pl-3'>
               <div className="title ">
                 <h3 className='text-2xl text-balance'>Licences <br /> Professionnelles</h3>
                 <span class="inline-block h-1  w-24 self-stretch bg-[#F17E3A] "></span>
