@@ -10,8 +10,8 @@ const technicien = [
 
 export default function Footer() {
   return (
-    <div className='bg-footer-bg lg:p-10 p-4 bg-center bg-no-repeat bg-cover  bg-slate-900 flex flex-col '>
-      <div className="flex flex-col items-center justify-center lg:p-14 p-10 rounded-xl bg-slate-300/10  mx-auto w-full">
+    <div className='bg-footer-bg lg:p-10 p-4 bg-center bg-fixed bg-no-repeat bg-cover  bg-slate-900 flex flex-col '>
+      <div className="flex flex-col items-center justify-center lg:p-14 p-10 rounded-xl bg-slate-300/10   mx-auto w-full">
         <div className="flex flex-col w-full max-w-5xl">
 
           <div className='grid lg:grid-cols-3 sm:grid-cols-1 lg:gap-10  gap-14 w-full '>

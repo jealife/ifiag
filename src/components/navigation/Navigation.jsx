@@ -6,11 +6,11 @@ import Link from 'next/link'
 
 export default function Navigation() {
     return (
-        <div className='bg-slate-50 w-full sticky start-1 top-0'>
+        <div className='bg-slate-50/95 backdrop-blur-md w-full sticky start-1 top-0'>
             <nav className=' py-4 px-6 max-w-7xl mx-auto flex gap-2 items-center justify-between ' >
                 <div className="logo">
                     <Link href={'/'}>
-                        <Image src={logo} width={120} height={90} alt='logo IFIAG' />
+                        <Image  src={logo} width={120} height={90} alt='logo IFIAG' />
                     </Link>
                 </div>
                 <div className="lg:flex hidden items-center gap-6 text-slate-900 uppercase">
