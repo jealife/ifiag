@@ -8,6 +8,9 @@
     text-wrap: balance;
   }
 }
+body{
+  scroll-behavior: smooth;
+}
 .active{
   color: #f57e27;
 }

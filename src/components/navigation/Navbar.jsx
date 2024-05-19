@@ -34,11 +34,11 @@ function classNames(...classes) {
 
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-    const activeLink = "text-blue-700  text-sm font-semibold leading-6";
-    const activeLinkMobile = "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 bg-gray-50";
+    // const "active" = "text-blue-700  text-sm font-semibold leading-6";
+    // const "active" = "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 bg-gray-50";
 
     return (
-        <div className=" z-50 bg-slate-50/95 backdrop-blur-md w-full sticky start-1 top-0 shadow-sm">
+        <div className="bg-slate-50/95 backdrop-blur-md w-full sticky start-1 top-0 shadow-sm">
             
             <nav className="mx-auto  sticky top-0 flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
 
@@ -124,29 +124,29 @@ export default function Navbar() {
                     </Popover>
 
                     <Link href={'#'}
-                        className={({ isActive }) => (isActive ? activeLink : "text-sm font-semibold leading-6 text-gray-900")}
+                        className={({ isActive }) => (isActive ? "active" : "text-sm font-semibold leading-6 text-gray-900")}
                     >
                         NOS FORMATIONS
                     </Link>
                     <Link href={'#'}
-                        className={({ isActive }) => (isActive ? activeLink : "text-sm font-semibold leading-6 text-gray-900")}
+                        className={({ isActive }) => (isActive ? "active" : "text-sm font-semibold leading-6 text-gray-900")}
                     >
                         ADMISIONS
                     </Link>
 
                     <Link href={'#'}
-                        className={({ isActive }) => (isActive ? activeLink : "text-sm font-semibold leading-6 text-gray-900")}
+                        className={({ isActive }) => (isActive ? "active" : "text-sm font-semibold leading-6 text-gray-900")}
                     >
                         IFIAG LIFE
                     </Link>
                     <Link href={'#'}
-                        className={({ isActive }) => (isActive ? activeLink : "text-sm font-semibold leading-6 text-gray-900")}
+                        className={({ isActive }) => (isActive ? "active" : "text-sm font-semibold leading-6 text-gray-900")}
                     >
                         Espace Entreprise
                     </Link>
 
                     <Link href={'/contact'}
-                        className={({ isActive }) => (isActive ? activeLink : "text-sm font-semibold leading-6 text-gray-900")}
+                        className={({ isActive }) => (isActive ? "active" : "text-sm font-semibold leading-6 text-gray-900")}
                     >
                         Contact
                     </Link>
@@ -160,9 +160,9 @@ export default function Navbar() {
                     </Link>
                 </div> */}
             </nav>
-            <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                <div className="fixed inset-0 z-10 " />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto backdrop-blur-xl bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <Dialog as="div" className="right-full" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+                <div className="inset-0 z-10 " />
+                <Dialog.Panel className="absolute lg:-right-full top-0 inset-y-0 right-0 z-10 w-full overflow-y-auto backdrop-blur-xl bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <Link href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">IFIAG</span>
@@ -211,19 +211,19 @@ export default function Navbar() {
                                 </Disclosure>
                                 <Link
                                     href={'#'}
-                                    className={({ isActive }) => (isActive ? activeLinkMobile : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
+                                    className={({ isActive }) => (isActive ? "active" : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
                                 >
                                     NOS FOMATIONS
                                 </Link>
                                 <Link
                                     href={'/'}
-                                    className={({ isActive }) => (isActive ? activeLinkMobile : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
+                                    className={({ isActive }) => (isActive ? "active" : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
                                 >
                                     IFIAG LIFE
                                 </Link>
                                 <Link
                                     href={'/contact'}
-                                    className={({ isActive }) => (isActive ? activeLinkMobile : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
+                                    className={({ isActive }) => (isActive ? "active" : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
                                 >
                                     CONTACT
                                 </Link>
