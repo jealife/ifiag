@@ -15,7 +15,7 @@ export default function BannerNav() {
                 </div>
                 <span class="inline-block h-full min-h-full w-px self-stretch bg-white "></span>
                 <div className=" ">
-                    <Link className='flex gap-1 items-center' href="'mailto:digital@ifiag.com"> <FiMail /><span className='lg:block hidden'>digital@ifiag.com</span></Link>
+                    <Link className='flex gap-1 items-center' href="mailto:digital@ifiag.com"> <FiMail /><span className='lg:block hidden'>digital@ifiag.com</span></Link>
                 </div>
             </div>
             <span className="flex items-center gap-1 justify-center">
