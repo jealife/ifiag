@@ -22,7 +22,7 @@ export default function Navigation() {
                     <Link href={'/'}>Espace Entreprise</Link>
                     <Link href={'/'}>Contact</Link>
                 </div>
-                <div className="lg:hidden flex text-[#F17E3A]  text-base">
+                <div className="lg:hidden block text-[#F17E3A]  text-2xl">
                 <TiThMenu />
                 </div>
             </nav>
