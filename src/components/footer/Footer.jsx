@@ -93,7 +93,7 @@ export default function Footer() {
           </div>
           <hr
             class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
-          <div className="flex items-center justify-between gap-2 lg:flex-row flex-col-reverse text-sm  text-center text-slate-400">
+          <div className="flex items-center justify-between gap-2 lg:flex-row flex-col-reverse text-sm text-slate-400">
             <div className=" text-xs">
               Copyright &copy; 2024 <Link className='text-[#F17E3A]' href={'/'}>IFIAG</Link> All Rights Reserved.
             </div>
