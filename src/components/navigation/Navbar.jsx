@@ -192,8 +192,8 @@ export default function Navbar() {
                                                     aria-hidden="true"
                                                 />
                                             </Disclosure.Button>
-                                            {/* <Disclosure.Panel className="mt-2 space-y-2">
-                                                {[...ifiag, ...callsToAction].map((item) => (
+                                            <Disclosure.Panel className="mt-2 space-y-2">
+                                                {[...ifiag].map((item) => (
                                                     <Disclosure.Button
                                                         key={item.name}
                                                         as="a"
@@ -203,7 +203,7 @@ export default function Navbar() {
                                                         {item.name}
                                                     </Disclosure.Button>
                                                 ))}
-                                            </Disclosure.Panel> */}
+                                            </Disclosure.Panel>
                                         </>
                                     )}
                                 </Disclosure>
