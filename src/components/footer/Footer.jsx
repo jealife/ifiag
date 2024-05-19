@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="flex flex-col items-center justify-center lg:p-14 p-10 rounded-xl bg-slate-300/10   mx-auto w-full">
         <div className="flex flex-col w-full max-w-5xl">
 
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1 lg:gap-10  gap-14 w-full '>
+          <div className='grid lg:grid-cols-3 sm:grid-cols-1 lg:gap-10 md:grid-cols-2 gap-14 w-full '>
             <div className='flex flex-col gap-6'>
               <div className='flex flex-col gap-4'>
                 <Link href={'/'}>
