@@ -8,7 +8,9 @@ import {
     FingerPrintIcon,
     SquaresPlusIcon,
     XMarkIcon,
-    AcademicCapIcon
+    AcademicCapIcon,
+    CogIcon,
+    StarIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import logo from '/public/images/logo-ifiag.png'
@@ -17,9 +19,9 @@ import Image from 'next/image'
 // import { Link } from "react-scroll";
 
 const ifiag= [
-    { name: 'Technicien Spécialisé', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
+    { name: 'Technicien Spécialisé', description: 'Get a better understanding of your traffic', href: '#', icon: CogIcon },
     { name: 'Licences Pros', description: 'Speak directly to your customers', href: '#', icon: AcademicCapIcon },
-    { name: 'Certifications', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
+    { name: 'Certifications', description: 'Connect with third-party tools', href: '#', icon: StarIcon },
 ]
 const callsToAction = [
     { name: 'Témoignages', href: '#', icon: PlayCircleIcon },
