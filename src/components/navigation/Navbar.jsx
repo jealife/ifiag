@@ -38,9 +38,9 @@ export default function Navbar() {
     const activeLinkMobile = "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 bg-gray-50";
 
     return (
-        <div className="bg-slate-50/95 backdrop-blur-md w-full sticky start-1 top-0 shadow-sm">
+        <div className=" z-50 bg-slate-50/95 backdrop-blur-md w-full sticky start-1 top-0 shadow-sm">
             
-            <nav className="mx-auto sticky top-0 flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
+            <nav className="mx-auto  sticky top-0 flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
 
                 {/* Logo nav */}
                 <div className="flex lg:flex-1">

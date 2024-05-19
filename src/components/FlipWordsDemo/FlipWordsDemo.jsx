@@ -2,7 +2,7 @@ import React from "react";
 import { FlipWords } from "../ui/flip-words";
 
 export function FlipWordsDemo() {
-  const words = ["IFIAG","c'est", "la", "Famile"];
+  const words = ["IFIAG","c'est", "la", "Famille"];
 
   return (
     <div className="">
