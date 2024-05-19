@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import logo from '/public/images/logo-ifiag.png'
 import Link from 'next/link'
+import { TiThMenu } from "react-icons/ti";
 
 export default function Navigation() {
     return (
@@ -20,6 +21,9 @@ export default function Navigation() {
                     <Link href={'/'}>IFIAG Life</Link>
                     <Link href={'/'}>Espace Entreprise</Link>
                     <Link href={'/'}>Contact</Link>
+                </div>
+                <div className="lg:hidden flex text-[#F17E3A]  text-base">
+                <TiThMenu />
                 </div>
             </nav>
         </div>
