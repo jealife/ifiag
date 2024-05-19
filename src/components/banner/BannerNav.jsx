@@ -4,7 +4,7 @@ import { FiFacebook, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 export default function BannerNav() {
     return (
-        <div className='w-full px-3 py-2  bg-[#F17E3A] flex justify-between'>
+        <div className='w-full px-3 py-2  bg-[#F17E3A] flex justify-between text-slate-50'>
             <div className="gap-2 flex text-sm lg:text-xs ">
                 <div className=" ">
                     <Link className='flex gap-1 items-center' href="'tel:+212 522-31649"> <FiPhone /> <span className='lg:block hidden'>(+212) 522-31649</span></Link>
