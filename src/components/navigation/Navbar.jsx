@@ -40,7 +40,7 @@ export default function Navbar() {
     return (
         <div className="bg-slate-50/95 backdrop-blur-md w-full sticky start-1 top-0 shadow-sm">
             
-            <nav className="mx-auto  sticky top-0 flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
+            <nav className="mx-auto z-40  sticky top-0 flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
 
                 {/* Logo nav */}
                 <div className="flex lg:flex-1">
@@ -161,7 +161,7 @@ export default function Navbar() {
                 </div> */}
             </nav>
             <Dialog as="div" className="right-full" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                <div className="inset-0 z-10 " />
+                <div className="inset-0 z-50 " />
                 <Dialog.Panel className="absolute lg:-right-full top-0 inset-y-0 right-0 z-10 w-full overflow-y-auto backdrop-blur-xl bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <Link href="#" className="-m-1.5 p-1.5">
